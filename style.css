@@ -1,33 +1,56 @@
-html,
-body {
+html
+{
 	height: 100%;
 	width: 100%;
-	font-size: 2em;
-	background-color: "red";
+	font-size: 1.5em;
+}
+
+body {
+  background-image: url("https://img.freepik.com/free-vector/blank-brown-notepaper-design-vector_53876-175008.jpg?size=626&ext=jpg&ga=GA1.1.32935581.1659092642&semt=ais");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #1a6783;
+  font-family: 'Kanit', sans-serif;
+   font-size: 20px;
+}
+
+#head{
+	text-align: center;
+	margin: auto;
+ 	background-color:#090e58;
+  color: #fcff3d;
+  width: 50%;
+  border-radius: 2px 25px 2px 25px;
+  border: 3px solid #090e58;
 }
 
 #joke {
-	background-color: #cbce27;
-	color: #0e0101;
+	background-color: #84dae6;
+	color: #060505;
 	display: block;
 	font-size: 2em;
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	border-radius: 10px;
-	padding: 10px;
+	width: 70%; /* Set the desired width of the box */
+	height: 300px; /* Set the desired height of the box */
+  	border-radius: 25px 0px 25px 0px;
+  	border: 3px solid #030250;
+	 /* Add a border to the box */
+	overflow: auto; /* Enable scrollbars if the content exceeds the box dimensions */
+	padding: 10px; 
 	text-align: center;
-	width: 100%;
-	height: auto;
+	margin: auto;
 }
 
 #btn {
-	background-color: black;
+	background-color: #f3a5a5;
 	color: red;
-	font-size: 1.5em;
+	font-size: 1em;
 	display: block;
-	padding: 20px;
+	padding: 10px;
 	font-weight: bold;
 	text-align: center;
 	border-radius: 8px;
-	width: 90%;
+	width: 35%;
 	margin: auto;
 }
